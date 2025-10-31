@@ -1,0 +1,8 @@
+weight:  "weights/best.pt"
+input_size: 1280
+class_num: 3
+class_name: ['boat','boatfloats','floats']
+threshold:
+    iou: 0.35
+    confidence: 0.55
+device: '0'
